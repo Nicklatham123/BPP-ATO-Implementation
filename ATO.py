@@ -247,7 +247,7 @@ def run_testing(filename, runtime, test_runs):
             performance += p_bks / len(solution)
             bins += len(solution)
         
-            plot_convergence([iteration_results], iters)
+            # plot_convergence([iteration_results], iters)
 
         # Print Problem Set Performance
         avg_bins = bins / test_runs
